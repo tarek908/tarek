@@ -1,0 +1,431 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Arimo&family=EB+Garamond&family=Faster+One&family=IBM+Plex+Sans&family=Nunito+Sans:opsz,wght@6..12,200&family=Quicksand:wght@300&family=Raleway&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbarr{
+    width: 100%;
+    height: 40px;
+    background: #303952;
+    position: fixed;
+}
+
+.nav1{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+.nav1 ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.nav1 ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+   font-family: 'Arimo', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+.nav1 .fa-solid{
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    margin: 5px 0;
+}
+/* -------navbar-end-------- */
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img/back.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.main-text{
+
+    
+    padding: 15% 30px;
+   
+    margin-left: 10px;
+    color: #fefafc;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.main-text .title{
+    font-size: 30px;
+    color: #ffffff;
+}
+.main-text h1{
+    font-size: 50px;
+}
+.main-text h1 span{
+    color:tomato;
+   font-weight: bolder;
+}
+.main-text p{
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+/* ------------main-end------------ */
+
+/* --------------about-start----------- */
+
+#About{
+    width: 100%;
+    min-height: 100vh;
+    color: #ababab;
+    background: #000;
+}
+.about_item{
+    width: 100%;
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    padding-top: 3%;
+
+}
+.about_img img{
+    border-radius: 20px;
+    width: 65vh;
+
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.about_text{
+    color: #fff;
+    margin-left: 5%;
+}
+.about_text h1{
+    font-size: 30px;
+}
+.about_text p{
+    font-size: 15px;
+}
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.tab-links::after{
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ff004f;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after{
+    width: 50%;
+}
+
+.tab-content ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+.tab-content ul li span{
+    color: #b54765;
+    font-size: 14px;
+}
+
+.tab-content{
+    display: none;
+}
+.tab-content.active-tab{
+    display: block;
+}
+
+
+
+
+
+
+
+/* --------------about-end----------- */
+
+/* --------------services-start--------- */
+
+#services{
+    width: 100%;
+    min-height: 100vh;
+    background: #596275;
+    padding-top: 30px;
+}
+
+.services-item{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 400px;
+    text-align: center;
+    align-items: center;
+    padding:0 40px;
+    grid-gap: 20px;
+    color: #fff;
+    position: static;
+}
+.services-item p{
+    font-size: 14px;
+}
+.services-item h2{
+    font-size: 25px;
+}
+.icon{
+    font-size: 70px;
+    position: static;
+}
+.web{
+    background: #000;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5;
+}
+.app{
+    background: #000;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    cursor: pointer;
+    transition: all  0.5;
+}
+.dm{
+    background: #000;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5;
+}
+.web:hover{
+    background: rgb(70, 1, 1);
+}
+.app:hover{
+    background: rgb(70, 1, 1);
+}
+.dm:hover{
+    background: rgb(70, 1, 1);
+}
+/* -----------protfolio-start----------- */
+
+#protfolio{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #596265;
+}
+.card{
+   position: static;
+}
+
+/* -----------protfolio-end------------- */
+
+/* -------------contact-start------------ */
+
+#contact{
+    width: 100%;
+    min-height: 50vh;
+    background: #000;
+}
+
+.contact-item{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-forom form{
+    color: #fff;
+}
+.contact-forom form label{
+    font-size: 14px;
+}
+.contact-forom form input{
+    border: 2px solid rgb(0, 132, 255);
+    min-width: 400px;
+    min-height: 35px;
+    padding: 10px 5px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+.contact-forom form textarea{
+    border: 2px solid rgb(0, 132, 255);
+    max-width: 400px;
+    min-height: 35px;
+    padding: 10px 5px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+.cotact-text{
+    width: 50%;
+    color: #fff;
+}
+.cotact-text h1{
+    font-size: 30px;
+}
+.cotact-text p{
+    font-size: 16px;
+}
+.contact-icon{
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contact-icon a ion-icon{
+    font-size: 30px;
+    margin: 10px;
+    color: #fff;
+}
+.copy p{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    padding: 0 40px;
+}
+
+
+
+/* -------------contact-end  ------------ */
+
+
+
+@media (max-width: 730px) {
+
+    .nav1{
+        margin: 0 2px;
+    }
+    .nav1 ul{
+        position: fixed;
+        width: 200px;
+        height: 100vh;
+        background: #e67e22;
+        right: -100%;
+        transition: all 0.5s;
+        z-index: 2;
+    }
+    .nav1 ul li{
+        display: block;
+        text-align: center;
+        margin: 30px 0;
+    }
+    .nav1 .fa-solid{
+        display: block;
+    }
+    #close{
+
+        text-align: end;
+        margin: 0 10px;
+    }
+
+    /* -------main------ */
+
+    main{
+        background-image: url(img/pic\ \(4\).jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .main-item{
+        display: block;
+        left: 0;
+        margin: auto;
+        padding-top: 15%;
+    }
+    .main-img img{
+        width: 30vh;
+        display: none;
+        margin: auto;
+    }
+    .main-text{
+        margin-left: 0;
+        padding-top: 20%;
+    }
+    .main-text p{
+        font-size: 12px;
+    
+    }
+    .main-text .title{
+        font-size: 12px;
+        display: block;
+        font-weight: bolder;
+        color: #ffffff;
+    }
+    .main-text h1{
+        font-size: 22px;
+        font-weight: bolder;
+        color: #ffffff;
+       
+    }
+    .main-text h1 span{
+        color: #ffea00;
+        font-weight: bolder;
+    }
+
+    .container{
+        display: block;
+        justify-content: space-around;
+    }
+    
+    /* -------about----------- */
+
+    .about_item{
+        display: block;
+        padding-bottom: 20px;
+    }
+    .about_img img{
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    /* ----------services------- */
+
+    .services-item{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact-item{
+        display: block;
+    }
+    .cotact-text{
+        padding-top: 20px;
+        width: 100%;
+        color: #fff;
+    }
+    .contact-forom form input{
+        min-width: 300px;
+    }
+    .contact-forom form textarea{
+        min-width: 300px;
+    }
+}

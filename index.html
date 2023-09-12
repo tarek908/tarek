@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font cdn -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo&family=EB+Garamond&family=IBM+Plex+Sans&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+    <!-- bootstrap cdn  -->
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> 
+
+    <!-- bootstrap cdn  -->
+
+    <link rel="stylesheet" href="style.css">
+    <title>Mohammad Tarekul Islam</title>
+</head>
+<body>
+    <div class="navbarr">
+      
+        <div class="nav1">
+
+            <a href="#"><img src="img/Tarek-logos_white.png" alt="logo" width="100px"></a>
+
+            <ul>
+                <i id="close" class="fa-solid fa-xmark" onclick="coleseMenu()" ></i>
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#protfolio">Profolio</a></li>
+                <li><a href="#contact">Cobtact</a></li>
+            </ul>
+
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+
+        </div>
+    
+    </div>
+<!-- -----------nav-end----------- -->
+<main>
+    <div class="main-item">
+
+        <div class="main-text">
+           <br>
+           <p class="fs-1">Web Developer & Designer</p>
+
+            <h1>Hi, I'm <span>Mohammad Tarekul  <br> Islam</span></h1>
+            <p class="title"> From Dhaka, Bangladesh</p>
+        </div>
+    </div>
+</main>
+<!-- ----------------------------main-end----------- -->
+
+<!-- -------------------------skill-start----------- -->
+
+<div id="About">
+    <div class="container">
+       <div class="about_item"> 
+        <div class="about_img">
+            <img src="img/pic (3).jpg" >
+        </div>
+        
+        <div class="about_text">
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, harum obcaecati. Beatae nemo voluptatibus perferendis sed velit accusamus modi, accusantium mollitia error minima aperiam aliquid corrupti totam labore expedita fugiat. Eius fugit placeat tempore exercitationem expedita omnis, adipisci architecto totam tenetur reiciendis animi quas cum sit ea impedit. Deleniti eaque placeat quod. Velit facilis ratione, ea repudiandae corporis officia consequuntur quibusdam animi veniam. Accusamus blanditiis aut expedita reprehenderit nobis, maiores cumque totam necessitatibus aliquid quibusdam atque autem. Voluptatibus ratione dolores veritatis, ab quas dolore quo voluptas tempore veniam ducimus porro consectetur debitis, illum corrupti obcaecati perspiciatis quibusdam animi. Sequi, cumque.</p>
+
+            <div class="tab-titles">
+                <div onclick="opentab('skill')" class="tab-links active-link">Skill</div>
+                <div onclick="opentab('expe')" class="tab-links">Experience</div>
+                <div onclick="opentab('edu')" class="tab-links">Education</div>
+            </div>
+
+            <div class="tab-content active-tab" id="skill">
+                <ul>
+                    <li><span>UI/UX</span> <br> Designing Web/App Interfaces</li>
+                    <li><span>Web Development</span> <br> Web/App Development</li>
+                    <li><span>App Development</span><br> Building Android / IOS App</li>
+                </ul>
+            </div>
+            
+            <div class="tab-content" id="expe">
+                <ul>
+                    <li><span>UI/UX Designer</span> <br> Microsoft </li>
+                    <li><span>Web Developer</span> <br> NASA</li>
+                    <li><span>App Developer</span><br> IOS App</li>
+                </ul>
+            </div>
+
+
+            <div class="tab-content" id="edu">
+                <ul>
+                    <li><span>JDC</span> <br> Narayanhat Adarsha Degree Collage</li>
+                    <li><span>SSC</span> <br> Baitush Sharaf Adarsha Kamil Madrasha</li>
+                    <li><span>HSc</span><br> Hazi Mohammad Mohsin Collage </li>
+                </ul>
+            </div>
+
+        </div>
+
+       </div>
+    </div>
+</div>
+
+
+<!-- ----------------skill-end----------- -->
+
+<!-- ---------------services-start----------- -->
+<div id="services">
+    <div class="title text-center text-white">
+        <h1>Services</h1>
+        <hr>
+    </div>
+    
+    <div class="services-item">
+        <div class="web">
+            <ion-icon class="icon" name="code-slash"></ion-icon>
+            <hr>
+            <h2>Web Development</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis architecto maxime id atque quibusdam a ex veritatis non illum reprehenderit? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, numquam exercitationem cupiditate quis nesciunt, modi non ducimus corrupti eos similique porro aspernatur aliquid quaerat? Cum dolor doloribus beatae hic corporis!</p>
+        </div>
+        <div class="app">
+            <ion-icon class="icon" name="logo-apple-ar"></ion-icon>
+            <hr>
+            <h2>App Development</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quibusdam ex amet quis fugiat modi ab magnam aut dolorem obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, id asperiores! Inventore cupiditate repellat distinctio, autem quae fugit illum. Delectus iste itaque vero animi, id sit laboriosam nemo excepturi perferendis!</p>
+        </div>
+        <div class="dm">
+            <ion-icon class="icon" name="planet"></ion-icon>
+            <hr>
+            <h2>Digital Marketing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde deleniti impedit temporibus debitis mollitia ipsa eius vero voluptatibus assumenda adipisci? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et impedit laboriosam molestiae mollitia voluptates, tenetur sequi doloribus explicabo sint, a modi nostrum at! Eius esse in officia facere, aperiam repellendus.</p>
+        </div>
+    </div>
+</div>
+<!-- -------------services-end---------------- -->
+
+<!-- -----------protfolio-start--------------- -->
+<div id="protfolio">
+    <div class="container">
+        <div class="title text-center text-white pt-4">
+            <h1>Protfolio</h1>
+            <hr>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/pic (2).jpg" height="250px"  class="card-img">
+                        <h2 class="card-title">E-commerce Wbsite</h2>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit ratione officiis adipisci nobis. Porro voluptatum ut earum labore temporibus corrupti.</p>
+                        <a href="#" class="card-link stretched-link">Explore Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/content.jpg" height="250px" class="card-img">
+                        <h2 class="card-title">Content Writing Ai Wbsite</h2>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit ratione </p>
+                        <a href="#" class="card-link stretched-link">Explore Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/app (1).png" height="250px"  class="card-img">
+                        <h2 class="card-title">Protfolio Wbsite</h2>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit ratione officiis adipisci nobis. Porro voluptatum ut earum labore temporibus corrupti.</p>
+                        <a href="#" class="card-link stretched-link">Explore Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/ui.jpg" height="250px"  class="card-img">
+                        <h2 class="card-title">Protfolio Wbsite</h2>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit ratione officiis adipisci nobis. Porro voluptatum ut earum labore temporibus corrupti.</p>
+                        <a href="#" class="card-link stretched-link">Explore Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/vactor.jpg" height="250px"  class="card-img">
+                        <h2 class="card-title">Protfolio Wbsite</h2>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit ratione officiis adipisci nobis. Porro voluptatum ut earum labore temporibus corrupti.</p>
+                        <a href="#" class="card-link stretched-link">Explore Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/digital.jpg" height="250px"  class="card-img">
+                        <h2 class="card-title">Protfolio Wbsite</h2>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit ratione officiis adipisci nobis. Porro voluptatum ut earum labore temporibus corrupti.</p>
+                        <a href="#" class="card-link stretched-link">Explore Now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-- ------------------protfolio-end---------- -->
+<!-- ------------------footer-start---------- -->
+
+<div id="contact">
+    <div class="title text-center text-white pt-4">
+        <h1>Contact</h1>
+        <hr>
+    </div>
+    <div class="contact-item">
+        <div class="contact-forom">
+            <form>
+                <label for="email">Email : </label> <br>
+                <input type="email" id="email" placeholder="Enter your email">
+                <br> <br>
+                <label for="comment">Comment :</label> <br>
+                <textarea name="comment" id="comment" cols="48" rows="2" placeholder="Enter Your Comment"></textarea>
+                <br>
+                <button class="btn btn-danger btn-lg mt-3">Send</button>
+            </form>
+        </div>
+        <div class="cotact-text">
+            <h1>Tarekul Islam</h1> <hr>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus magnam expedita voluptatibus provident, atque nemo a ipsam hic facilis autem culpa laboriosam sapiente dicta harum obcaecati soluta libero illum illo veniam ex nulla. Animi nobis, sed recusandae laudantium voluptatum laborum!</p>
+        </div>
+    </div>
+
+    <div class="contact-icon">
+        
+       <a href="https://web.facebook.com/profile.php?id=100050892250747"> <ion-icon name="logo-facebook"></ion-icon></a>
+      <a href="https://instagram.com/the_tarek_islam?igshid=MzNlNGNkZWQ4Mg==">  <ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://www.linkedin.com/in/mohammad-tarequl-islam-263197236/"><ion-icon name="logo-linkedin"></ion-icon></a>
+       <a href="https://github.com/tarek908"> <ion-icon name="logo-github"></ion-icon></a>
+        <a href=" https://whatsapp.com/dl/ "><ion-icon name="logo-whatsapp"></ion-icon></a>
+        
+    </div>
+    <div class="copy">
+        <p>Copyright by Mohammad Tarekul Islam from Dhaka Bangladesh</p>
+    </div>
+</div>
+
+<!-- ------------------footer-end-  --------- -->
+
+
+<!-- -------------------Script----------------- -->
+
+    <script>
+        let slideMenu = document.querySelectorAll("ul")[0];
+
+        function openMenu(){
+            slideMenu.style.right = "0";
+        }
+
+        function coleseMenu(){
+            slideMenu.style.right = "-100%";
+        }
+
+    </script>
+
+    <!-- -----ionic.oi-cdn--------- -->
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
