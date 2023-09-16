@@ -426,6 +426,6 @@ main{
         min-width: 300px;
     }
     .contact-forom form textarea{
-        min-width: 300px;
+        max-width: 300px;
     }
 }
